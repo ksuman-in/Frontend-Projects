@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.select-wrapper{
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+}
+.select-wrapper select {
+  margin-left: 20px;
+}
+.table-wrapper{
+  display: flex;
+  padding: 20px 10px;
+  background-color: #ececec;
+  border-radius: 5px;
+}
+tr{
+  word-wrap: break-word;
+}
+.image{
+  overflow: clip;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+.image img{
+  width: 100%;
+  height: 100px;
+  transition: all 0.3 ease-out;
+}
+.image img:hover{
+  transform: scale(1.5);
+}
+.btn-grp{
+  display: flex;
+  column-gap: 5px;
+  padding-top: 20px;
+}
+.btn-grp button {
+  padding: 5px 10px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+.btn-grp button.active{
+  background-color: #ff7fbd;
+}
+.btn-grp button.btn-diable{
+  background-color: #ccc;
+}
