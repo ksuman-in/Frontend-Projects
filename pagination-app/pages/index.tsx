@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [pagination, setPagination] = useState({
-    itemsSize: 10,
+    itemsSize: 5,
     skipItems: 0,
     page: 1,
   });
@@ -69,6 +69,7 @@ export default function Home() {
           onChange={handlePageSize}
           value={pagination.itemsSize}
         >
+          <option value="5">5</option>
           <option value="10">10</option>
           <option value="20">20</option>
           <option value="30">30</option>
