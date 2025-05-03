@@ -116,19 +116,3 @@ function App() {
 }
 
 export default App;
-
-// suggest some description for git commit
-// 1. "Implement search bar functionality with debounce"
-// 2. "Add loading spinner to search results"
-// 3. "Style search results with card layout and image avatars"
-// 4. "Fetch and display book data from Gutendex API"
-// 5. "Improve user experience with responsive design and error handling"
-// 6. "Refactor code for better readability and maintainability"
-// 7. "Add TypeScript types for book data"
-// 8. "Optimize performance with useEffect and useState hooks"
-// 9. "Enhance accessibility with semantic HTML and ARIA attributes"
-// 10. "Update README with project description and usage instructions"
-// 11. "Fix bug with search input not clearing results"
-// 12. "Add unit tests for search functionality"
-
-// create a readme file for this project without commenting out the code

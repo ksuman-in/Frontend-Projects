@@ -1,5 +1,5 @@
  # Project Title
- A brief description of your project
+ A brief description of my project
 
  ## Description
  This project is a simple React application that allows users to search for books using the Gutendex API. It features a responsive design, a search bar with debounce functionality, and displays search results in a card layout with image avatars.
