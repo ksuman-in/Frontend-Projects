@@ -21,7 +21,7 @@ function App() {
   };
   const handleReset = () => {
     setTime(0);
-    clearInterval(timeInterval);
+    handlePause();
   };
 
   const milliSeconds = Math.floor(time % 100);
